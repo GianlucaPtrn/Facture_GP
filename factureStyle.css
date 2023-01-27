@@ -1,0 +1,206 @@
+/*IMPORT*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+body{
+    background-color: #0A092D;
+    font-family: 'Roboto';
+}
+
+.containerFull{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerFacture{
+    background-color: #151E2F;
+    width: 80%;
+    margin-bottom: 5vh;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.blocFacture{
+    letter-spacing: 1px;
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    background-color: #222e43;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    justify-content: space-around;
+}
+
+p{
+    font-size: 15px;
+}
+
+.factureFirstNameDesti{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.factureNameDesti{
+    margin-left: 5%;
+}
+
+.facturePostalCodeDesti{
+    margin-left: 5%;
+}
+
+.factureAdressDesti{
+    margin-left: 5%;
+}
+
+.descritptionFacture{
+    margin-left: 5%;
+}
+
+.montantFacture{
+    margin-left: 5%;
+}
+
+.statusFacture{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.BlockHeaderFacture{
+    background-color: #151E2F;
+    width: 70%;/**/
+    margin-top: 5%;
+    margin-bottom: 5vh;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.TitleFacture{
+    font-size: 2.5rem;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+    margin: 1em;
+    color: white;
+}
+
+.SecTitleFacture{
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+    margin: 1.5em;
+    color: white;
+}
+
+.textGreen{
+    color: #62BDA3; 
+}
+
+.containerTitle{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+    border: 1px solid black;
+}
+
+.containerHeaderSearchBar{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid black;
+}
+
+.BlocTitleFacture{
+    letter-spacing: 2px;
+    color: whitesmoke;
+    padding: 1vh;
+    width: 100%;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.BtnPayerFacture{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    background-color: #62BDA3;
+    color: black;
+    cursor: pointer;
+}
+
+form{
+    margin: 1em;
+}
+
+
+/*MOBILE*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){  
+
+    .BlockHeaderFacture{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .containerTitle{
+        width: 100%;
+    }
+
+    .containerHeaderSearchBar{
+        width: 100%;    
+    }
+
+    .TitleFacture{
+        font-size: 2rem;
+    }
+
+    .containerFacture{
+        width: 90%;
+        border: 1px solid black;
+    }
+
+    .blocFacture{
+        width: 90%;
+    }
+}
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 1024px){
+    .BlockHeaderFacture{
+        width: 90%;
+    }
+
+    .containerTitle{
+        width: 100%;
+    }
+
+    .containerHeaderSearchBar{
+        width: 100%;    
+    }
+
+    .TitleFacture{
+        font-size: 1.5em;
+    }
+
+    form{
+        margin: 0.3em;
+    }
+
+    .containerFacture{
+        width: 90%;
+        border: 1px solid black;
+    }
+
+    .blocFacture{
+        width: 90%;
+    }
+
+}
